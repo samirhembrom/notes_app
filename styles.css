@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: teal;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note{
+    background-color: #fff ;
+    width: 400px;
+    height: 400px;   
+    margin: 2em;
+    box-shadow: 0 0 10px 5px rgb(0,0,0,0.1);
+}
+
+.note .tools{
+    background-color: cornflowerblue ;
+    padding: .5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ .note .tools button{
+     cursor: pointer;
+     background-color: transparent;
+     border: none;
+     color: #fff;
+     font-size: 1rem;
+ }
+
+ .note .main{
+    background-color: #eee;
+    height: 400px;
+    width: 100%; 
+    overflow: hidden;
+ }
+
+ .note textarea{
+    font-size: 1.5rem;
+    outline: none;
+    font-family: inherit;
+    height: 400px;
+    width: 100%;
+    border: none;
+ }
+
+ .note .hidden{
+     display: none;
+ }
+
+.add{ 
+    cursor: pointer;
+    background-color: indianred;
+    color: #fff;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    position: fixed;
+    right:0;
+    top:0;
+}
