@@ -1,2 +1,2 @@
 # Notes App
-**Text** Built using HTML CSS JS
+**Built using HTML CSS JS**
